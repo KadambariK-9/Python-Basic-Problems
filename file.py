@@ -1,0 +1,5 @@
+f=open('Biodata.txt','r')
+data=f.read()
+print(data)
+print('File read Successfully')
+f.close()
